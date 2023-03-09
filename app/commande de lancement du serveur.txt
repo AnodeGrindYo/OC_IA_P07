@@ -1,0 +1,7 @@
+uvicorn main:app --reload
+
+==> puis ouvrir le navigateur à l'adresse : localhost:8000/home
+
+==> route de l'API : /predict
+
+NB : le modèle enregistré faisant 1.02 Go, il n'a pas pu être fourni dans les livrables (la taille ne doit pas dépasser 200Mo)
