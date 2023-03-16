@@ -30,6 +30,7 @@ Le projet utilise les technologies suivantes:
 - GloVe
 - Deep Learning
 - Neural Networks
+- nginx
 
 
 ## Compétences évaluées
