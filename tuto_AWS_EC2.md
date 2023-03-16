@@ -44,7 +44,7 @@ python3 uvicorn main:app
 ```
 
 Et BAM!!! :sunglasses:
-Maintenant dans ton navigateur, quand tu te rends à l'ipv4 publique de ton instance EC2, t'as ton app qui tourne comme un derviche !!! et plus important, quand tu quittes la console, ça tourne toujours
+Maintenant dans ton navigateur, quand tu te rends à l'ipv4 publique de ton instance EC2, t'as ton app qui tourne comme un derviche !!! 
 
 NB : tu peux avoir des soucis lors de l'install de tensorflow. mais il y a un workaround :
 - installation manuelle mais en remplaçant tensorflow par tensorflow-cpu :
@@ -57,3 +57,5 @@ installer les packages suivants peut aussi aider :
 apt-get update
 apt-get install ffmpeg libsm6 libxext6  -y
 ```
+
+pour que le serveur continue de tourner même après avoir quitté la session sur le terminal, utiliser tmux [comme dans la réponse à cette question sur StackOverflow](https://stackoverflow.com/questions/47823240/keep-running-a-python-script-on-aws-ec2-even-if-cli-session-is-closed)
